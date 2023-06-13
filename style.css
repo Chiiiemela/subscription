@@ -1,0 +1,291 @@
+
+*{
+box-sizing: border-box;
+}
+
+body{
+    background-image: 
+     url(images/bg-top.svg), url(images/bg-bottom.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Lato', sans-serif;
+    background-attachment: fixed;
+    background-color:hsl(240, 78%, 98%);
+    filter: opacity(100%);
+
+}
+
+.pricing{
+    font-weight: bolder;
+    color: #646464;
+}
+
+.toggle{
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    font-size: xx-large;
+    margin-top: 0.6em;
+}
+
+.small{
+    font-size:0.6em;
+    font-weight:bold;
+    color: #646464;
+
+}
+
+.top-side{
+    text-align: center;
+}
+
+.box-1{
+    text-align: center;
+    margin: auto;
+    width: 11em;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #646464;
+
+}
+
+.text-1{
+    font-size:xx-large;
+    font-weight: bolder;
+    color: black;
+}
+.usd{
+    font-size:medium;
+}
+
+.sec-1{
+    border-bottom: 1px solid #646464 ;
+    padding: 1em;
+    font-size: small;
+    
+
+}
+
+.sec-2{
+    border-bottom: 1.3px solid #646464 ;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.sec-3{
+    border-bottom: 1.3px solid #646464 ;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.sec-4{
+    border-bottom: 1.3px solid #646464 ;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.btn{
+    margin: 1em;
+    background-color: hsl(237, 63%, 64%);
+    border-style: none;
+    font-size: xx-small;
+    font-weight: bolder;
+    color: #fff;
+    padding: 1em 4em;
+    border-radius: 5px;
+}
+
+.box-2{
+    text-align: center;
+    margin: auto;
+    width: 11em;
+    color: #fff;
+    background-color: hsl(237, 63%, 64%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+.text-1b{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.usd-2{
+    font-size: medium;
+}
+
+.sec-1b{
+    border-bottom: 1px solid ;
+    padding: 1em;
+    border-color: #fff;
+    font-size: smaller;
+
+}
+
+.sec-2b{
+    border-bottom: 1px solid #fff;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.sec-3b{
+    border-bottom: 1px solid #fff ;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.sec-4b{
+    border-bottom: 1px solid #fff;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.btn-2{
+    margin: 1em;
+    background-color: #fff;
+    border-style: none;
+    font-size: xx-small;
+    font-weight: bolder;
+    color: hsl(237, 63%, 74%);
+    padding: 1em 4em;
+    border-radius: 5px;
+}
+
+.box-3{
+    text-align: center;
+    margin: auto;
+    width: 11em;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    color: #646464;
+
+}
+
+.text-1c{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+
+.usd-3{
+    font-size: medium;
+}
+
+.sec-1c{
+    border-bottom: 1px solid ;
+    padding: 1em;
+    border-color: #646464;
+    font-size: small;
+
+}
+
+.sec-2c{
+    border-bottom: 1px solid #646464;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.sec-3c{
+    border-bottom: 1px solid #646464 ;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.sec-4c{
+    border-bottom: 1px solid #646464 ;
+    padding: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.btn-3 {
+    margin: 1em;
+    background-color: hsl(237, 63%, 64%);
+    border-style: none;
+    font-size: xx-small;
+    font-weight: bolder;
+    color: #fff;
+    padding: 0.2em 4.1em;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:650px) {
+
+    .down-side-1{
+        display: flex;
+    }
+    .btn{
+        opacity: 0.9;
+    }
+
+    .btn:hover{
+        opacity: 1;
+    }
+
+    .btn-2{
+        opacity: 0.9;
+    }
+    .btn-2:hover{
+        opacity: 1;
+    }
+
+    .btn-3{
+        opacity: 0.9;
+    }
+
+    .btn-3:hover{
+        opacity: 1;
+    }
+
+    .box-2{
+        height: 18em;
+        width: 14em;
+        border-radius: 8px;
+    }
+
+    .btn-2{
+        padding: 1.5em 5em;
+    }
+
+
+    .box-1:hover{
+        box-shadow: 2px 2px 5px black;
+        margin-top: -1px;
+    }
+
+    .box-2:hover{
+        box-shadow: 4px 4px 5px black;
+    }
+
+    .box-3:hover{
+        box-shadow: 2px 2px 5px black;
+        margin-top: -1px;
+    }
+
+
+
+
+
+}
+
