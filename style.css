@@ -47,7 +47,7 @@ body{
 
 .box-1{
     text-align: center;
-    max-width: 13em;
+    width: 50%;
     background-color: white;
     border-radius: 4px;
     display: flex;
@@ -110,7 +110,7 @@ body{
 
 .box-2{
     text-align: center;
-    max-width: 13em;
+    width: 50%;
     color: #fff;
     background-color: hsl(237, 63%, 64%);
     border-radius: 4px;
@@ -173,7 +173,7 @@ body{
 
 .box-3{
     text-align: center;
-    max-width: 13em;
+    width: 50%;
     background-color: white;
     border-radius: 4px;
     display: flex;
