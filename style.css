@@ -17,6 +17,7 @@ body{
 
 .pricing{
     font-weight: bolder;
+    font-size: 1.5em;
     color: #646464;
 }
 
@@ -40,14 +41,14 @@ body{
 
 .box-1{
     text-align: center;
-    margin: auto;
     width: 11em;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 1em;
     color: #646464;
 
 }
@@ -103,14 +104,13 @@ body{
 
 .box-2{
     text-align: center;
-    margin: auto;
     width: 11em;
     color: #fff;
     background-color: hsl(237, 63%, 64%);
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     margin-top: 1em;
 
@@ -167,7 +167,6 @@ body{
 
 .box-3{
     text-align: center;
-    margin: auto;
     width: 11em;
     background-color: white;
     border-radius: 4px;
@@ -234,6 +233,8 @@ body{
 
     .down-side-1{
         display: flex;
+        justify-content: center;
+        gap: 1em;
     }
     .btn{
         opacity: 0.9;
@@ -257,11 +258,15 @@ body{
     .btn-3:hover{
         opacity: 1;
     }
+    .box-1, .box-3{
+        width: 13em;
+    }
 
     .box-2{
-        height: 18em;
+        height: 21em;
         width: 14em;
         border-radius: 8px;
+        margin: 0%;
     }
 
     .btn-2{
@@ -271,16 +276,17 @@ body{
 
     .box-1:hover{
         box-shadow: 2px 2px 5px black;
-        margin-top: -1px;
+        transform: translateY(2%);
     }
 
     .box-2:hover{
         box-shadow: 4px 4px 5px black;
+        transform: translatey(1%);
     }
 
     .box-3:hover{
         box-shadow: 2px 2px 5px black;
-        margin-top: -1px;
+        transform: translateY(2%);
     }
 
 
